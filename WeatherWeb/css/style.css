@@ -89,6 +89,7 @@ h2{
     background-image: linear-gradient(to top left, #6297FF, #78B3F6) !important;
     border: none !important;
     font-weight: bold !important;
+    line-height: 2.3 !important;
     letter-spacing: 3px;
 }
 
