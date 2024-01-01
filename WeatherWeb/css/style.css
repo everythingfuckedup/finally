@@ -16,7 +16,6 @@ html,body{
 }
 
 
-
 .logo{
     width: 246px;
     height: 46px;
@@ -37,7 +36,7 @@ html,body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: GenWanMin TW TTF;
+    font-family: "源雲明體";
     font-size: 80px;
     font-style: normal;
     font-weight: 600;
