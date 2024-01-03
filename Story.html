@@ -8,13 +8,14 @@
   <link rel="stylesheet" href="./css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
   <div class="wrapped">
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="nav-brand active" aria-current="page" href="index.html"><img class="logo"
               src="Images/logo-black.png" alt="logo">
@@ -27,33 +28,56 @@
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav">
+
               <li class="nav-item">
-                <a class="nav-link" href="Story.html">Story</a>
+                <a class="nav-link" href="Story.html" style="color: #6DA6FA;">
+                  Story
+                  <div class="nav-line" ></div>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Character.html">Character</a>
+                <a class="nav-link" href="Character.html">
+                  Character
+                  <div class="nav-line" ></div>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="System.html">System</a>
+                <a class="nav-link" href="System.html">
+                  System
+                  <div class="nav-line" ></div>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Movie.html">Movie</a>
+                <a class="nav-link" href="Movie.html">
+                  Movie
+                  <div class="nav-line" ></div>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="AboutUs.html">About Us</a>
+                <a class="nav-link" href="AboutUs.html">
+                  About Us
+                  <div class="nav-line" ></div>
+                </a>
               </li>
               <li class="nav-item">
-                <img class="YT" src="Images/youtube-icon.png" alt="Youtube">
+                <img class="YT" src="Images/youtube-icon.png" alt="Youtube" style="margin-right: 10px;">
                 <img class="FB" src="Images/facebook-icon.png" alt="facebook">
               </li>
+
               <li class="nav-item">
-                <button type="button" class="btn btn-primary download">立即下載</button>
+                <!--<button type="button" class="btn btn-primary download">立即下載</button>-->
+                <a href="#" class="download">
+                  立即下載
+                  <span></span><span></span><span></span><span></span>
+              </a>
               </li>
+
             </ul>
           </div>
         </div>
       </nav>
     </header>
+
     <div class="container" style="margin-top: 100px;">
       <div class="row">
         <div class="col-12 title">
@@ -64,38 +88,49 @@
     </div>
 
     <div class="container">
-      <p class="h5 mt-5" style="text-align: center;">人們在研究天氣變化時，意外發現了能與天氣溝通的方法<br>
-        人們以此管理和抑制天氣，並成立了天氣管理局，將天氣控制在機構內<br>
-        <br>
-        為了方便管理及分散風險，天氣管理局將沒有明確形體的天氣分裂開來，<br>
-        成為五個能力被弱化，並具有人性和人類般樣貌的個體。五位天氣被灌輸自己是人類的一份子
-      </p>
-      <h1 class="mt-5 mb-5">「 天氣管理人 」</h1>
-      <p class="h5 " style="text-align: center;">負責管理這五位天氣的狀態、心情和工作<br>
-        以維持人類環境的穩定
-      </p>
-
-        <div class="row " style="margin-top: 200px;">
-          <img src="Images/memberphoto.png" alt="" class="col-lg-6 col-sm-12">
-          <p class="h5 col-lg-6 col-sm-12 text-start px-5" style="text-align: center; margin-top: 150px;">五位天氣在前任管理人的控管下
-            ，受到了良好的控制。一切看似非常和平 <br>
-
-            直到前任管理人不明的死亡之前...</p>
-        </div>
+      <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+        <p class="h5 mt-5" style="text-align: center;">人們在研究天氣變化時，意外發現了能與天氣溝通的方法<br>
+          人們以此管理和抑制天氣，並成立了天氣管理局，將天氣控制在機構內<br>
+          <br>
+          為了方便管理及分散風險，天氣管理局將沒有明確形體的天氣分裂開來，<br>
+          成為五個能力被弱化，並具有人性和人類般樣貌的個體。五位天氣被灌輸自己是人類的一份子
+        </p>
       </div>
+      <div data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+        <h1 class="mt-5 mb-5">「 天氣管理人 」</h1>
+      
+      
+        <div class="mt-5 mb-5">
+          <p class="h5 " style="text-align: center;">負責管理這五位天氣的狀態、心情和工作<br>
+            以維持人類環境的穩定
+          </p>
+        </div></div>
+      
+
+      <div class="row " style="margin-top: 200px;">
+        <img src="Images/memberphoto.png" alt="" class="col-lg-6 col-sm-12" data-aos="fade-up" 
+        data-aos-delay="500"
+        data-aos-duration="1000">
+        <p class="h5 col-lg-6 col-sm-12 text-start px-5" style="text-align: center; margin-top: 150px;"
+          data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">五位天氣在前任管理人的控管下
+          ，受到了良好的控制。一切看似非常和平 <br>
+
+          直到前任管理人不明的死亡之前...</p>
+      </div>
+
     </div>
     <div style="background-color: #2E2E2E">
       <div class="container-fluid" style="margin-top: 200px;">
 
         <div class="row align-items-start justify-content-between">
-          <div class=" col-md-4 col-12 " style="margin-top: 200px; padding-left: 50px;">
+          <div class=" col-md-4 col-12 " style="margin-top: 200px; padding-left: 50px;" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="200"data-aos-easing="ease-in-out-quart">
             <p style="color: #FFF;
             font-family: 源雲明體;
             font-size: 48px;
             font-weight: 600;text-align: center;">殺死<span style="font-size: 88px;">前任管理人</span></p>
           </div>
 
-          <div class=" col-md-4 col-12 order-first order-md-0">
+          <div class=" col-md-4 col-12 order-first order-md-0" data-aos="fade-down"data-aos-duration="1000"data-aos-delay="200" data-aos-easing="ease-in-out-quart">
             <img src="Images/doll.png" class="img-fluid " alt="">
           </div>
 
@@ -103,7 +138,7 @@
             <p style="color: #FFF;
             font-family: 源雲明體;
             font-size: 48px;
-            font-weight: 600; text-align: center;">的<span style="font-size: 88px;">犯人</span>就在</p>
+            font-weight: 600; text-align: center;" data-aos="zoom-out" data-aos-duration="1000"data-aos-delay="500" data-aos-easing="ease-in-out-quart">的<span style="font-size: 88px;">犯人</span>就在</p>
           </div>
         </div>
       </div>
@@ -111,47 +146,81 @@
       <p style="color: #FFF;
             font-family: 源雲明體;
             font-size: 48px;
-            font-weight: 600; text-align: center;margin-top: 200px;">五位<span style="font-size: 96px;">天氣</span>之中——</p>
+            font-weight: 600; text-align: center;margin-top: 200px;" data-aos="fade-up" 
+        data-aos-delay="500"
+        data-aos-duration="1000">五位<span style="font-size: 96px;">天氣</span>之中——</p>
 
       <div class="container-fluid ">
         <div class="row justify-content-center mt-5">
 
-          <img class="img-fluid col-lg-2 col-md-4 col-sm-4 col-4 " src="Images/cloudy_bk.png" alt="cloudy">
-          <img class="img-fluid col-lg-2 col-md-4 col-sm-4 col-4 " src="Images/rainbow_bk.png" alt="rainbow">
-          <img class="img-fluid col-lg-2 col-md-4 col-sm-4 col-4 " src="Images/sunny_bk.png" alt="sunny">
-          <img class="img-fluid col-lg-2 col-md-4 col-sm-4 col-4 " src="Images/thunder_bk.png" alt="thunder">
-          <img class="img-fluid col-lg-2 col-md-4 col-sm-4 col-4 " src="Images/rainy_bk.png" alt="rainy">
+          <img class="img-fluid col-lg-2 col-md-4 col-sm-4 col-4 " src="Images/cloudy_bk.png" data-aos="flip-left" data-aos-delay="100" data-aos-offset="200" data-aos-duration="1000" alt="cloudy">
+
+          <img class="img-fluid col-lg-2 col-md-4 col-sm-4 col-4 " src="Images/rainbow_bk.png" data-aos="flip-left" data-aos-delay="200"data-aos-offset="200"  data-aos-duration="1000" alt="rainbow">
+
+          <img class="img-fluid col-lg-2 col-md-4 col-sm-4 col-4 " src="Images/sunny_bk.png" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="200" alt="sunny">
+
+          <img class="img-fluid col-lg-2 col-md-4 col-sm-4 col-4 " data-aos-offset="200" src="Images/thunder_bk.png" data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000" alt="thunder">
+
+          <img class="img-fluid col-lg-2 col-md-4 col-sm-4 col-4 " data-aos-offset="200" src="Images/rainy_bk.png" data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000" alt="rainy">
         </div>
       </div>
 
       <p style="color: #FFF;
             font-family: 源雲明體;
             font-size: 32px;
-            font-weight: 600;text-align: center;margin-top: 400px;">作為新任管理人，你的任務就是</p>
+            font-weight: 600;text-align: center;margin-top: 400px;" data-aos="fade-up" 
+        data-aos-delay="200"
+        data-aos-duration="1000">作為新任管理人，你的任務就是</p>
 
       <p style="color: #FFF;
             font-family: 源雲明體;
             font-size: 48px;
-            font-weight: 600;text-align: center;">找出<span style="font-size: 96px;">兇手</span>然後<span
+            font-weight: 600;text-align: center;" data-aos="fade-up" 
+        data-aos-delay="500"
+        data-aos-duration="1000">找出<span style="font-size: 96px;">兇手</span>，然後<span
           style="font-size: 96px;">殺掉他——</span></p>
 
-      <div class="row justify-content-center  align-items-center" style="margin-top: 300px; height: 800px;">
-        <img class="col-12 col-lg-4 img-fluid" src="Images/save.png">
+      <div class="row justify-content-center  align-items-center" style="margin-top: 300px; height: 800px;" >
+        <img class="col-12 col-lg-4 img-fluid" src="Images/save.png"  data-aos="fade-right"data-aos-delay="200"data-aos-duration="700">
+
         <p class="col-12 col-lg-4" style="color: #FFF;
                 font-family: 源雲明體;
                 font-size: 48px;
-                font-weight: 600;text-align: center;margin: 50px auto;">你將決定他們的命運...</p>
-        <img class="col-12 col-lg-4 img-fluid" src="Images/kill.png">
+                font-weight: 600;text-align: center;margin: 50px auto;" data-aos="zoom-out"data-aos-delay="500"
+        data-aos-duration="1000">你將決定他們的命運...</p>
+
+        <img class="col-12 col-lg-4 img-fluid" src="Images/kill.png" data-aos="fade-left"data-aos-delay="200"data-aos-duration="700">
       </div>
     </div>
 
   </div>
 
 
-  <footer valign="bottom">
-    <p>Copyrights 2023 Weather Manager / Design by Managers</p>
-  </footer>
+  <div valign="bottom" class="bg" style="height: 170px; width: 100%; background-color: #2E2E2E; position: relative;">
+    <div class="container-fluid">
+      <div class="row row-cols-auto" style="padding-top: 30px; padding-left: 20px;">
+        <div class="col">
+          <p style="color: white; align-items: center; font-family: 源雲明體; line-height: 3.8;">Follow Us</p>
+        </div>
+        <div class="col">
+          <img style="margin: 1px;" class="YT img-fluid" src="Images/youtube-icon-wh.png" alt="Youtube">
+        </div>
+        <div class="col">
+          <img style="margin: 1px;" class="FB img-fluid" src="Images/facebook-icon-wh.png" alt="facebook">
+        </div>
+      </div>
+        <div class="row">
+          <div class="col">
+            <p style="color: white; font-family: 源雲明體; padding-left: 20px;">Copyrights ©2023 Weather Manager</p>
+          </div>
+        </div>
+    </div>
+  </div>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
