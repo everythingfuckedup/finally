@@ -1,36 +1,38 @@
 @font-face {
     font-family: "源雲明體";
     src: url('./font/GenWanMin\ TW\ SemiBold.woff')format("woff")
-         
 }
 
-html,body{
+html,
+body {
     font-family: "源雲明體";
     height: 100%;
     margin: 0;
 }
 
-.wrapped{
+.wrapped {
     min-height: 100%;
-    
+
 }
 
 
-.logo{
+.logo {
     width: 246px;
     height: 46px;
 }
 
-.YT{
+.YT {
     width: 54px;
     height: 54px;
 }
 
-.FB{
+.FB {
     width: 54px;
     height: 54px;
 }
-h1{
+
+/*漸層色大標*/
+h1 {
     background: linear-gradient(94deg, #78B3F6 0%, #6297FF 96.07%);
     text-align: center;
     background-clip: text;
@@ -43,11 +45,11 @@ h1{
     line-height: normal;
     text-transform: uppercase;
 }
-
-h2{
+/*主頁次標(英文)+System頁小標*/
+h2 {
     color: #2E2E2E;
-    text-align: center;
-    font-family: GenWanMin TW TTF;
+    /*text-align: center;*/
+    font-family: "源雲明體";
     font-size: 60px !important;
     font-style: normal;
     font-weight: 500 !important;
@@ -55,11 +57,12 @@ h2{
     letter-spacing: 6.72px;
     text-transform: uppercase;
 }
-
-p{
+/*各分頁開頭英文小標*/
+h4 {
     color: #2E2E2E;
     text-align: center;
-    font-family: GenWanMin TW TTF;
+    text-align: center;
+    font-family: "源雲明體";
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -67,22 +70,43 @@ p{
     letter-spacing: 6.72px;
     text-transform: uppercase;
 }
+/*內文*/
+.h5 {
+    color: #364246;
+    /*text-align: center;*/
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold !important;
+    line-height: 200% !important;
+    letter-spacing: 6.72px;
+    text-transform: uppercase;
+}
+/*p {
+    color: #2E2E2E;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 6.72px;
+    text-transform: uppercase;
+}*/
 
 
-.navbar-nav{
+.navbar-nav {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.nav-link{
+.nav-link {
     font-family: "GenWanMin TW TTF";
     color: #000000 !important;
     font-weight: bold;
     font-size: 25px;
 }
 
-.download{
+.download {
     border-radius: 38px !important;
     width: 194px;
     height: 51px;
@@ -93,8 +117,8 @@ p{
     letter-spacing: 3px;
 }
 
-.download:hover{
-    background-image: linear-gradient(to top left, #275ECB, #4690E4 ) !important;
+.download:hover {
+    background-image: linear-gradient(to top left, #275ECB, #4690E4) !important;
     transition: 1s ease-in-out !important;
     border: none !important;
     font-weight: bold !important;
@@ -103,14 +127,14 @@ p{
 
 
 
-footer{
+footer {
     width: 100%;
     height: 61px;
     position: relative;
     bottom: 0;
     left: 0;
     background: #364246;
-    color:#F8F9F9;
+    color: #F8F9F9;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -118,13 +142,14 @@ footer{
 
 
 
-/*TOP*/  
-.TitleCharacter{
+/*TOP*/
+.TitleCharacter {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.TitleCharacter p{
+
+.TitleCharacter p {
     color: #364246;
     font-family: "GenWanMin TW TTF";
     font-size: 60px;
@@ -132,7 +157,8 @@ footer{
     font-weight: 600;
     line-height: normal;
 }
-.title{
+
+.title {
     margin-top: 100px;
 }
 
@@ -145,16 +171,7 @@ footer{
     height: auto;
 }
 
-.text{
-    color: #364246;
-    text-align: center;
-    font-size: 20px !important;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 200%;
-    letter-spacing: 6.72px;
-    text-transform: uppercase;
-}
+
 
 .cover {
     width: 100%;
@@ -165,20 +182,22 @@ footer{
     position: absolute;
     z-index: 1;
     top: 75%;
-    color: white; /* Optional: Set text color to contrast with the image */
+    color: white;
+    /* Optional: Set text color to contrast with the image */
     font-weight: bold;
     font-size: 24px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a shadow with 2px horizontal, 2px vertical, and 4px blur */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    /* Add a shadow with 2px horizontal, 2px vertical, and 4px blur */
     letter-spacing: 3px;
 }
 
 /*story*/
 
-.sky{
+.sky {
     margin-right: 5%;
 }
 
-.TitleStory{
+.TitleStory {
     color: #364246;
     font-family: "GenWanMin TW TTF";
     font-size: 60px;
@@ -186,6 +205,7 @@ footer{
     font-weight: 600;
     line-height: normal;
 }
+
 /*.StoryContent p{
     color: #364246;
     text-align: center;
@@ -194,7 +214,7 @@ footer{
     font-style: normal;
     font-weight: 500;
     line-height: 152%; /* 36.48px */
-    /*letter-spacing: 3.12px;
+/*letter-spacing: 3.12px;
 }
 .StoryContent h2{     
         background: linear-gradient(91deg, #79B4F7 19.86%, #659AFF 77.56%);
@@ -218,35 +238,40 @@ footer{
 
 
 /*movie*/
-.content{
+.content {
     bottom: 5%;
 }
 
 
-.line{
+.line {
     width: 30%;
     height: 3px;
     background-color: #E2E7E8;
 }
-.MoviePv{
-    width:100%;
+
+.MoviePv {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 100px auto;
-    
+
 
 }
-.popup-youtube{
+
+.popup-youtube {
     width: 1160px;
     height: 586px;
     box-shadow: 10px 10px 0px 0px #9DBBF6;
     background: url("Images/PvSubnail.png");
-    background-size: cover; /* 将背景图片放大以填满视口 */
-    background-repeat: no-repeat; /* 防止图片重复 */
-    background-position: center center; 
+    background-size: cover;
+    /* 将背景图片放大以填满视口 */
+    background-repeat: no-repeat;
+    /* 防止图片重复 */
+    background-position: center center;
 }
-.SystemContent h2{
+
+/*.SystemContent h2 {
     color: #2E2E2E;
     font-family: GenWanMin TW TTF;
     font-size: 32px;
@@ -256,18 +281,20 @@ footer{
     letter-spacing: 6.72px;
     text-transform: uppercase;
 }
-.SystemContent p{
-    color: #2E2E2E;
-font-family: Noto Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 52px; /* 216.667% */
-letter-spacing: 3px;
-text-transform: uppercase;
-}
 
-.Choice{
+.SystemContent p {
+    color: #2E2E2E;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+    /* 216.667% */
+ /*   letter-spacing: 3px;
+    text-transform: uppercase;
+}*/
+
+.Choice {
     margin-top: 220px;
     background-color: #2E2E2E;
     color: #ffffff;
@@ -278,27 +305,29 @@ text-transform: uppercase;
     line-height: normal;
     letter-spacing: 6.4px;
     text-align: center;
-    
-}
-.Charatitle h2{
-    color: #2F3031;
-font-family: GenWanMin TW TTF;
-font-size: 56px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
-text-align: center;
+
 }
 
-.Charatitle p{
+.Charatitle h2 {
     color: #2F3031;
-text-align: center;
-font-family: Noto Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 55px; /* 152.778% */
-letter-spacing: 2.88px;
-text-transform: uppercase;
+    font-family: GenWanMin TW TTF;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Charatitle p {
+    color: #2F3031;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    /* 152.778% */
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
 }
