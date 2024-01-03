@@ -30,14 +30,14 @@ html,body{
     width: 54px;
     height: 54px;
 }
-.title h1{
+h1{
     background: linear-gradient(94deg, #78B3F6 0%, #6297FF 96.07%);
     text-align: center;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "源雲明體";
-    font-size: 80px;
+    font-size: 80px !important;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -56,11 +56,11 @@ h2{
     text-transform: uppercase;
 }
 
-.title p{
+p{
     color: #2E2E2E;
     text-align: center;
     font-family: GenWanMin TW TTF;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -186,7 +186,7 @@ footer{
     font-weight: 600;
     line-height: normal;
 }
-.StoryContent p{
+/*.StoryContent p{
     color: #364246;
     text-align: center;
     font-family: Noto Sans;
@@ -194,7 +194,7 @@ footer{
     font-style: normal;
     font-weight: 500;
     line-height: 152%; /* 36.48px */
-    letter-spacing: 3.12px;
+    /*letter-spacing: 3.12px;
 }
 .StoryContent h2{     
         background: linear-gradient(91deg, #79B4F7 19.86%, #659AFF 77.56%);
@@ -209,12 +209,12 @@ footer{
         line-height: 152%;
         letter-spacing: 12.48px;
         text-align: center;
-}
-.text{
+}*/
+/*.text{
     font-size: 20px;
     line-height: 200%;
     letter-spacing: 3px;
-}
+}*/
 
 
 /*movie*/
