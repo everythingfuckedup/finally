@@ -14,7 +14,7 @@
 
   <div class="wrapped">
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="nav-brand active" aria-current="page" href="index.html"><img class="logo"
               src="Images/logo-black.png" alt="logo">
@@ -57,63 +57,253 @@
         </div>
       </nav>
     </header>
-    <div class="container">
-      <div class="title">
-        <p>Character</p>
-        <h1>角色介紹</h1>
+
+    <div class="container-fluid" style="margin-top: 100px;">
+      <div class="row ">
+        <div class="col-12 title">
+          <p>ChARACTER</p>
+          <h1>角色介紹</h1>
+        </div>
       </div>
-      <div>
+    </div>
 
-        <div class="container" style="margin-top: 100px;">
-          <div class="row  Charatitle">
-            <h2>天氣</h2>
-            <p>被管理局管理的五種天氣，具有人性和人類般的樣貌
-              其能力影響著現實人類的生活</p>
+    <div class="container" style="margin-top: 100px;">
+      <div class="row  Charatitle">
+        <h2>天氣</h2>
+        <p>被管理局管理的五種天氣，具有人性和人類般的樣貌
+          其能力影響著現實人類的生活</p>
+      </div>
+    </div>
+
+    <div class="container-fluid ">
+      <div class="row justify-content-center mt-5 ">
+
+        <a href="#" data-bs-toggle="modal" data-bs-target="#cloudy" class="col-lg-2 col-md-4 col-sm-4 col-4"
+          style="margin-top:50px ;"><img src="Images/cloudy_color.png" class="img-fluid" alt="cloudy"></a>
+
+        <a href="#" data-bs-toggle="modal" data-bs-target="#rainbow" class="col-lg-2 col-md-4 col-sm-4 col-4"
+          style="margin-top:50px ;"><img src="Images/rainbow_color.png" class="img-fluid" alt="rainbow"></a>
+
+        <a href="#" data-bs-toggle="modal" data-bs-target="#sunny" class="col-lg-2 col-md-4 col-sm-4 col-4"
+          style="margin-top:50px ;"><img src="Images/sunny_color.png" class="img-fluid" alt="sunny"></a>
+
+        <a href="#" data-bs-toggle="modal" data-bs-target="#thunder" class="col-lg-2 col-md-4 col-sm-4 col-4"
+          style="margin-top:50px ;"><img src="Images/thunder_color.png" class="img-fluid" alt="thunder"></a>
+
+        <a href="#" data-bs-toggle="modal" data-bs-target="#rainy" class="col-lg-2 col-md-4 col-sm-4 col-4"
+          style="margin-top:50px ;"><img src="Images/rainy_color.png" class="img-fluid" alt="rainy"></a>
+      </div>
+    </div>
+
+    <div class="modal fade" id="cloudy" tabindex="-1" aria-labelledby="cloudyLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-md-down modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="cloudyLabel" style="font-family: GenWanMin TW TTF ; text-align: center;">天氣檔案
+            </h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-        </div>
+          <div class="modal-body">
+            <div class="container-fluid ">
+              <div class="row align-items-start">
+                <div class="col-12  col-md-12 col-lg-6">
+                  <img src="Images/cloudy.png" class="img-fluid">
+                </div>
+                <div class="col">
+                  <div class="CharacterIntroContent" style="margin-top: 50px;">
+                    <h3>陰天</h3>
+                    <hr style="color: #000;">
+                    <p>個性慵懶，語氣舉止懶散。對很多事物表現出沒有興趣及無髓味的樣子，與人講話很隨意沒有特別拘謹。不會放太多心力在事物上，與其他天氣的交流不多<br><br>
 
-        <div class="container-fluid ">
-          <div class="row justify-content-center mt-5">
+                      喜歡懶洋洋地窩著，不會介意有他人在身邊，但可能也不會太搭理對方。對察覺他人的心情和想法很敏銳，卻不會特別為別人做什麼<br><br>
 
-            <a href="" class=" col-2 img-fluid"><img src="Images/cloudy_color.png" alt="cloudy"></a>
-            <a href="" class="col-2 img-fluid"><img src="Images/rainbow_color.png" alt="rainbow"></a>
-            <a href="" class="col-2 img-fluid"><img src="Images/sunny_color.png" alt="sunny"></a>
-            <a href="" class="col-2 img-fluid"><img src="Images/thunder_color.png" alt="thunder"></a>
-            <a href="" class="col-2 img-fluid"><img src="Images/rainy_color.png" alt="rainy"></a>
+                      自己的悠閒時光被打斷會感到不耐煩</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 
-
-
-        <div class="container-fluid" style="margin-top: 100px; width:100% ; background-color:#2E2E2E ; ">
-          <div class="row Charatitle">
-            <h2 style="margin-top: 100px; color: #FFF;">天氣管理局</h2>
-            <p style="color: #FFF;">研究、控制天氣的機構，以穩定人類世界的天氣</p>
-
-            <h3 style="text-align: center; 
-        font-family: GenWanMin TW TTF;
-        font-size: 32px;
-        font-weight: 600;margin-top: 166px;color: #FFF;  ">管理人 ( 你 )</h3>
-            <p style="color: #FFF;margin-top: 50px;"> 負責監督、協助天氣的工作，保持天氣之間的和諧<br>
-              並排除可能造成危害的不安定因子<br>
-              你需要和天氣保持良好的關係<br>
-              並找出事件的真相與兇手</p>
-            <h3 style="text-align: center; 
-          font-family: GenWanMin TW TTF;
-          font-size: 32px;
-          font-weight: 600; margin-top: 166px;color: #FFF;">前任管理人</h3>
-            <p style="margin-bottom: 166px;color: #FFF;margin-top: 50px;">負責管理五名天氣的前任管理人—霧<br>生前深受五名天氣的信任<br>已死亡
-            </p>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="modal fade" id="rainbow" tabindex="-1" aria-labelledby="rainbowLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-md-down modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="rainbowLabel" style="font-family: GenWanMin TW TTF ; text-align: center;">天氣檔案
+            </h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid ">
+              <div class="row align-items-start">
+                <div class="col-12  col-md-12 col-lg-6">
+                  <img src="Images/rainbow.png" class="img-fluid">
+                </div>
+                <div class="col">
+                  <div class="CharacterIntroContent" style="margin-top: 50px;">
+                    <h3>彩虹</h3>
+                    <hr style="color: #000;">
+                    <p>外在表現出甜美友善的形象，會以可愛的東西裝扮自己。雖然常笑盈盈對人，但笑容卻感受不到真誠，反而給人難以言喻的不適感和距離感。<br><br>
+
+                      喜歡問他人過度私人的問題，卻鮮少提到關於自己的事。會掌握他人心靈上的弱點並以此有意識地去觸怒或刺激他人，喜歡掌控一切的安心感，包括他人的反應和自身呈現的樣子。<br><br>
+
+                      大多情況都展現出游刃有餘的樣子。但若讓他覺得自己失去事物的控制權會極度焦慮和恐懼。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="sunny" tabindex="-1" aria-labelledby="sunnyLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-md-down modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="sunnyLabel" style="font-family: GenWanMin TW TTF ; text-align: center;">天氣檔案
+            </h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid ">
+              <div class="row align-items-start">
+                <div class="col-12  col-md-12 col-lg-6">
+                  <img src="Images/sunny.png" class="img-fluid">
+                </div>
+                <div class="col">
+                  <div class="CharacterIntroContent" style="margin-top: 50px;">
+                    <h3>晴天</h3>
+                    <hr style="color: #000;">
+                    <p>充滿元氣、活潑，看起來總是很開心，容易與人親近，對其他的天氣表現出友善的態度。<br><br>
+
+                      他將幫助他人當作最重要的事，然而心思卻不夠細膩。他大多嘗試用自己的方法解決別人的問題，不善察覺別人負面情緒背後的原因。他認為放著別人不管是自私的行為，因此不懂得留給他人個人空間。<br><br>
+
+                      若面對無法順利讓對方精神提振起來的狀況，會試圖以不切實際的正向態度來蓋過問題，或是以掩蓋對方負面情緒的方式強制對方開心起來。<br><br>
+
+                      有時給人的印象會是橫衝直撞且聽不進別人的話。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="thunder" tabindex="-1" aria-labelledby="thunderLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-md-down modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="thunderLabel" style="font-family: GenWanMin TW TTF ; text-align: center;">天氣檔案
+            </h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid ">
+              <div class="row align-items-start">
+                <div class="col-12  col-md-12 col-lg-6">
+                  <img src="Images/thunder.png" class="img-fluid">
+                </div>
+                <div class="col">
+                  <div class="CharacterIntroContent" style="margin-top: 50px;">
+                    <h3>閃電</h3>
+                    <hr style="color: #000;">
+                    <p>性格衝動，易怒，直來直往且容易暴躁，對人態度非常不客氣。口不擇言，容易<br><br>
+
+                      與其他天氣起爭執，大多數時候是獨來獨往<br><br>
+
+                      會在感受到威脅感時咄咄逼人。心情好時也會有放鬆的一面，但很少表現出來。<br><br>
+
+                      對其他天氣心裡是關心的，但連對自己都不想承認。認為展示內心柔軟的一面很危險，因此會誇張地表現憤怒來掩蓋這點。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="rainy" tabindex="-1" aria-labelledby="rainyLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-md-down modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="rainyLabel" style="font-family: GenWanMin TW TTF ; text-align: center;">天氣檔案
+            </h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid ">
+              <div class="row align-items-start">
+                <div class="col-12  col-md-12 col-lg-6">
+                  <img src="Images/rainy.png" class="img-fluid">
+                </div>
+                <div class="col">
+                  <div class="CharacterIntroContent" style="margin-top: 50px;">
+                    <h3>雨天</h3>
+                    <hr style="color: #000;">
+                    <p>對他人會保持禮貌的態度，用字遣詞上謹慎，舉止優雅。大多數時候看起來鬱鬱寡歡。傾向與他人保持一定的距離。<br>
+                      <br>
+                      大部分時間都在獨自思考，認為自己的想法很難被他人了解，因此習慣把事情放在心上不說出口。有孤芳自賞的特質。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid" style="margin-top: 100px; width:100% ; background-color:#2E2E2E ; ">
+      <div class="row Charatitle">
+        <h2 style="margin-top: 100px; color: #FFF;">天氣管理局</h2>
+        <p style="color: #FFF;">研究、控制天氣的機構，以穩定人類世界的天氣</p>
+
+        <h3 style="text-align: center; 
+        font-family: GenWanMin TW TTF;
+        font-size: 32px;
+        font-weight: 600;margin-top: 166px;color: #FFF;  ">管理人 ( 你 )</h3>
+        <p style="color: #FFF;margin-top: 50px;"> 負責監督、協助天氣的工作，保持天氣之間的和諧<br>
+          並排除可能造成危害的不安定因子<br>
+          你需要和天氣保持良好的關係<br>
+          並找出事件的真相與兇手</p>
+        <h3 style="text-align: center; 
+          font-family: GenWanMin TW TTF;
+          font-size: 32px;
+          font-weight: 600; margin-top: 166px;color: #FFF;">前任管理人</h3>
+        <p style="margin-bottom: 166px;color: #FFF;margin-top: 50px;">負責管理五名天氣的前任管理人—霧<br>生前深受五名天氣的信任<br>已死亡
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
   </div>
 
   <footer valign="bottom">
     <p>Copyrights 2023 Weather Manager / Design by Managers</p>
   </footer>
-  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
